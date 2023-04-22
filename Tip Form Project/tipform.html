@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Form Project</title>
+</head>
+<body>
+    <div class="wrapper">
+        <h2>TIP Calulator</h2>
+        <div>
+            <span>How much was your bill ?</span><br>
+            <input type="number" class="amt" placeholder="0">
+        </div>
+        <div>
+            <span>How many people sharing the bill ?</span><br>
+            <input type="number" class="people" placeholder="0">
+        </div>
+        <div>
+            <span>How was your service</span><br>
+            <select class ="service-tip" name="" id="service" >
+                <option id="service" value="0">Choose...</option>
+                <option id="service" value="20">Great-20%</option>
+                <option id="service" value="10">Good-10%</option>
+                <option id="service" value="2">Bad-2%</option>
+            </select>
+        </div>
+        <div>
+            <br>
+            <button id ="btn">Calculate</button>
+        </div>
+        <div>
+            <span class="tipdisplay"></span><br>
+            <span class="totalAmtdisplay"></span><br>
+            <span class="sharedisplay"></span>
+        </div>
+    </div>
+    
+
+
+  <script src="../Tip Form Project/tipform.js"></script>  
+</body>
+</html>

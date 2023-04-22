@@ -1,0 +1,42 @@
+
+    .container{
+        border: 2px solid;
+        padding: 0px 20px 20px 20px;
+        width: 400px;
+        height:auto;
+        margin-left: 500px;
+        margin-top: 200px;
+        background-color: aqua;
+        border-radius: 0.5cm;
+        
+    }
+  
+    span{
+        font-size: 80px;
+        text-align: center;
+        padding-left: 170px;
+        padding-bottom: 60px;
+        display: inline; 
+    }
+    .dec{
+        cursor: pointer;
+        background-color: rgb(121, 121, 159);
+        margin-left: 60px;
+    }
+    .dec:hover{
+        background-color: rgb(200,10,190);
+    }
+    .inc:hover{
+        background-color: rgb(200,10,190);
+    }
+    .inc{
+        cursor: pointer;
+        background-color: rgb(121, 121, 159);
+        margin-left: 50px;
+
+    }
+    h2{
+        padding-left: 65px;
+        text-shadow: 2px 2px red;
+        font-size: 50px;
+    }
